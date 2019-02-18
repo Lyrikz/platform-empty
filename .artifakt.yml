@@ -8,3 +8,9 @@ infrastructure:
   cost_estimation: 
     monthly_price: 1
     details: "almost free infra"
+actions:
+  -
+    name: dummy
+    code: dummy
+    script: dummy.sh
+    engine: shell

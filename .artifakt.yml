@@ -1,0 +1,10 @@
+artifakt_version: "0.2"
+tag: "0.1.0"
+build_engine: "terraform"
+available_regions:
+  - us-east-1
+infrastructure:
+  build_time: 1
+  cost_estimation: 
+    monthly_price: 1
+    details: "almost free infra"

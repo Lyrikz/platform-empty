@@ -1,6 +1,6 @@
 artifakt_version: "0.2"
 tag: "0.1.0"
-build_engine: "terraform"
+build_engine: "terraformm"
 available_regions:
   - us-east-1
 infrastructure:

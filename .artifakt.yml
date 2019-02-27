@@ -14,3 +14,8 @@ actions:
     code: dummy
     script: dummy.sh
     engine: shell
+  - 
+    name: mydu
+    code: mydu
+    script: mydu.sh
+    engine: shell

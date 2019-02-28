@@ -14,3 +14,12 @@ actions:
     code: dummy
     script: dummy.sh
     engine: shell
+
+outputs:
+  -
+    name: dummy
+    code: dummy
+  -
+    name: dummy secret
+    code: dummy_secret
+    secret: true

@@ -1,7 +1,11 @@
 output "dummy" {
-  value = "nosensible"
+  value = "nosensible-edited"
 }
 output "dummy_secret" {
-  value = "sensible"
+  value = "sensible-edited"
   sensitive = true
+}
+output "new_dummy" {
+  value = "new_dummy"
+  sensitive = false
 }

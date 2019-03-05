@@ -23,3 +23,7 @@ outputs:
     name: dummy secret
     code: dummy_secret
     secret: true
+  -
+    name: new dummy
+    code: new_dummy
+    secret: false

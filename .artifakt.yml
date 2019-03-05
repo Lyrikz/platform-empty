@@ -1,5 +1,5 @@
 artifakt_version: "0.2"
-tag: "0.1.8"
+tag: "0.1.9"
 build_engine: "terraform"
 available_regions:
   - us-east-1
@@ -27,6 +27,7 @@ actions:
      name: Import requis
      type: text
      required: false
+     default: Yes
      validation:
         values:
           - Yes
@@ -44,6 +45,7 @@ actions:
      name: Import requis
      type: text
      required: false
+     default: tata
      validation:
         values:
           - tata

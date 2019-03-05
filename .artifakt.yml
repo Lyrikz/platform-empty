@@ -1,5 +1,5 @@
 artifakt_version: "0.2"
-tag: "0.1.6"
+tag: "0.1.7"
 build_engine: "terraform"
 available_regions:
   - us-east-1
@@ -14,7 +14,23 @@ actions:
     code: dummy
     script: dummy.sh
     engine: shell
-
+  -
+    code: deploy
+    name: Deploy
+    description: Deploy VSF Stack on docker host
+    category: applications
+    engine: shell
+    script: deploy.sh
+    params:
+    -
+     code: need_import
+     name: Import requis
+     type: text
+     required: false
+     validation:
+        values:
+          - Yes
+          - No
 outputs:
   -
     name: dummy

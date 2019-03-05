@@ -31,6 +31,23 @@ actions:
         values:
           - Yes
           - No
+  -
+    code: deployooo
+    name: Deploy
+    description: Deploy VSF Stack on docker host
+    category: applications
+    engine: shell
+    script: deploy.sh
+    params:
+    -
+     code: need_import
+     name: Import requis
+     type: text
+     required: false
+     validation:
+        values:
+          - tata
+          - toto
 outputs:
   -
     name: dummy

@@ -27,7 +27,6 @@ actions:
      name: Import requis
      type: text
      required: false
-     default: Yes
      validation:
         values:
           - Yes

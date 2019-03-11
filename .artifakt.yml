@@ -1,4 +1,4 @@
-artifakt_version: "0.2"
+artifakt_version: "0.1"
 tag: "0.1.11"
 build_engine: "terraform"
 available_regions:

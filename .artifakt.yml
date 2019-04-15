@@ -15,6 +15,11 @@ actions:
     script: dummy.sh
     engine: shell
   -
+    name: error
+    code: error
+    script: error.sh
+    engine: shell
+  -
     code: deploy
     name: Deploy
     description: Deploy VSF Stack on docker host

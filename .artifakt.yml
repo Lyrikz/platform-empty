@@ -1,5 +1,5 @@
 artifakt_version: "0.3"
-tag: "0.1.14"
+tag: "0.1.15"
 build_engine: "terraform"
 available_regions:
   - us-east-1

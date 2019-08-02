@@ -1,4 +1,4 @@
-artifakt_version: "0.3"
+artifakt_version: "0.4"
 tag: "0.1.17"
 build_engine: "terraform"
 available_regions:
@@ -8,6 +8,8 @@ infrastructure:
   cost_estimation: 
     monthly_price: 1
     details: "almost free infra"
+source:
+  url: "https://github.com/Lyrikz/lyrikz-empty-src"
 actions:
   -
     name: dummy
